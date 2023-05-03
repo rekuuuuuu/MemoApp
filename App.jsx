@@ -2,7 +2,6 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { CardStyleInterpolators, createStackNavigator } from "@react-navigation/stack";
 import firebase from "firebase";
-// import { initializeApp } from "firebase/app";
 
 import MemoListScreen from "./src/screens/MemoListScreen";
 import MemoDetailScreen from "./src/screens/MemoDetailScreen";
@@ -23,7 +22,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="SignUp"
+        initialRouteName="LogIn"
         screenOptions={{
           headerStyle: {
             backgroundColor: "#467FD3",
